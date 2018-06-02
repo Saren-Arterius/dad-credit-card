@@ -4,6 +4,7 @@ Automatically helps your dad to pay his credit card (Bank of China) bill. Captch
 # Requirements ([] = optional, for OCR training) 
 OS
 - python3
+- cython
 - chrom{e, ium}
 - [tkinter]
 
@@ -15,5 +16,6 @@ Python libs
 - [pyquery]
 
 # Usage
-`$ BOC_USERNAME=xxxx BOC_PASSWORD=yyyy WIDTHDRAW_ACCT=zzzz python main.py`
+1. `$ python3 setup.py build_ext --inplace` for once
+2. `$ BOC_USERNAME=xxxx BOC_PASSWORD=yyyy WIDTHDRAW_ACCT=zzzz python3 main.py`
 where zzzz is internal acct number, use inspector on select acct page on your main acct`
