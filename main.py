@@ -8,7 +8,8 @@ import os
 
 LOGIN_URL = 'https://its.bochk.com/login/ibs_lgn_index_c.jsp'
 
-CHROME_UI_SCALE = 1.5
+CHROME_UI_SCALE = float(
+    os.environ['CHROME_UI_SCALE']) if 'CHROME_UI_SCALE' in os.environ else 1
 USERNAME = os.environ['BOC_USERNAME']
 PASSWORD = os.environ['BOC_PASSWORD']
 WIDTHDRAW_ACCT = os.environ['WIDTHDRAW_ACCT']
