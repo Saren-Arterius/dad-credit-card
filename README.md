@@ -20,3 +20,5 @@ Python libs
 2. `$ BOC_USERNAME=xxxx BOC_PASSWORD=yyyy WIDTHDRAW_ACCT=zzzz CHROME_UI_SCALE=1 python3 main.py`
 where zzzz is internal acct number, use inspector on select acct page on your main acct`
 
+# Action
+![Action](https://drop.wtako.net/file/42772aaa0b6b65fc5a191810645cc3e886ec9cda.gif "Action")
